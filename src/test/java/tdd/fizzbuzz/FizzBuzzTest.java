@@ -35,7 +35,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_return_Fizz_when_order_is_multiple_of_3() {
+    public void should_return_Fizz_when_order_is_3_and_multiple_of_3() {
         // given
         int order = 3;
 
@@ -48,5 +48,18 @@ public class FizzBuzzTest {
         assertEquals(exceptedResult, word);
     }
 
+    @Test
+    public void should_return_Fizz_when_order_is_6_and_multiple_of_3() {
+        // given
+        int order = 6;
+
+        // when
+        String word = FizzBuzz.countOff(order);
+
+        // then
+        String exceptedResult = "Fizz";
+
+        assertEquals(exceptedResult, word);
+    }
 
 }
