@@ -62,4 +62,32 @@ public class FizzBuzzTest {
         assertEquals(exceptedResult, word);
     }
 
+    @Test
+    public void should_return_Fizz_when_order_is_5_and_multiple_of_5() {
+        // given
+        int order = 5;
+
+        // when
+        String word = FizzBuzz.countOff(order);
+
+        // then
+        String exceptedResult = "Buzz";
+
+        assertEquals(exceptedResult, word);
+    }
+
+    @Test
+    public void should_return_Fizz_when_order_is_10_and_multiple_of_5() {
+        // given
+        int order = 10;
+
+        // when
+        String word = FizzBuzz.countOff(order);
+
+        // then
+        String exceptedResult = "Buzz";
+
+        assertEquals(exceptedResult, word);
+    }
+
 }
