@@ -63,7 +63,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_return_Fizz_when_order_is_5_and_multiple_of_5() {
+    public void should_return_Buzz_when_order_is_5_and_multiple_of_5() {
         // given
         int order = 5;
 
@@ -77,7 +77,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_return_Fizz_when_order_is_10_and_multiple_of_5() {
+    public void should_return_Buzz_when_order_is_10_and_multiple_of_5() {
         // given
         int order = 10;
 
@@ -91,7 +91,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_return_Fizz_when_order_is_15_and_multiple_of_3_and_5() {
+    public void should_return_FizzBuzz_when_order_is_15_and_multiple_of_3_and_5() {
         // given
         int order = 15;
 
@@ -105,7 +105,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_return_Fizz_when_order_is_30_and_multiple_of_3_and_5() {
+    public void should_return_FizzBuzz_when_order_is_30_and_multiple_of_3_and_5() {
         // given
         int order = 30;
 
