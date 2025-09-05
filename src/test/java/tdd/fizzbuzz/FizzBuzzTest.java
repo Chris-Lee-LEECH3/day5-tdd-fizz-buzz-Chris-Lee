@@ -34,4 +34,19 @@ public class FizzBuzzTest {
         assertEquals(exceptedResult, word);
     }
 
+    @Test
+    public void should_return_Fizz_when_order_is_multiple_of_3() {
+        // given
+        int order = 3;
+
+        // when
+        String word = FizzBuzz.countOff(order);
+
+        // then
+        String exceptedResult = "Fizz";
+
+        assertEquals(exceptedResult, word);
+    }
+
+
 }
